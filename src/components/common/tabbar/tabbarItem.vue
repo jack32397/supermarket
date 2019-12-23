@@ -14,23 +14,23 @@
 
 <script>
 export default {
-  name: "tabbarItem",
+  name: 'tabbarItem',
   props: {
     path: String
   },
   methods: {
-    clickItem() {
+    clickItem () {
       if (this.$route.path !== this.path) {
-        this.$router.replace(this.path);
+        this.$router.replace(this.path)
       }
     }
   },
   computed: {
-    isActive() {
-      return this.$route.path == this.path;
+    isActive () {
+      return this.$route.path == this.path
     }
   }
-};
+}
 </script>
 
 <style scoped>

@@ -3,8 +3,8 @@
 </template>
 
 <script>
-export default{
-    name:"Catergory"
+export default {
+  name: 'Catergory'
 }
 </script>
 
