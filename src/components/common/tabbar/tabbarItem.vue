@@ -27,7 +27,7 @@ export default {
   },
   computed: {
     isActive () {
-      return this.$route.path == this.path
+      return this.$route.path === this.path
     }
   }
 }
